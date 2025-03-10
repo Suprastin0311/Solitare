@@ -62,4 +62,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>settings</module>
+	</modules>
 </project>
