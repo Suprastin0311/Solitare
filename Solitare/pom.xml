@@ -62,4 +62,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>game_montana</module>
+	</modules>
 </project>
