@@ -8,3 +8,7 @@ public class App {
         System.out.println("Module Game_Solitare");
     }
 }
+
+private void startGame() {
+
+}
