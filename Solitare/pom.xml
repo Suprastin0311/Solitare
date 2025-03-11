@@ -64,5 +64,6 @@
     <module>settings</module>
     <module>game_montana</module>
     <module>game_klondike</module>
+    <module>game_accordion</module>
   </modules>
 </project>
