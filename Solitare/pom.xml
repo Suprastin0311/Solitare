@@ -61,5 +61,6 @@
     <module>interface</module>
     <module>repository</module>
     <module>profile</module>
+    <module>settings</module>
   </modules>
 </project>
