@@ -51,13 +51,13 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.
-	<module></module>springframework.boot</groupId>
+        <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
   <modules>
     <module>module_localization</module>
+    <module>interface</module>
   </modules>
 </project>
