@@ -10,8 +10,8 @@
   <groupId>com.example</groupId>
   <artifactId>Solitare</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
   <name>Solitare</name>
+  <packaging>pom</packaging>
   <description>Demo project for Spring Boot</description>
   <url/>
   <licenses>
@@ -60,5 +60,6 @@
     <module>module_localization</module>
     <module>interface</module>
     <module>repository</module>
+    <module>profile</module>
   </modules>
 </project>
