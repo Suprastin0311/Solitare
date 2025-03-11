@@ -65,5 +65,7 @@
     <module>game_montana</module>
     <module>game_klondike</module>
     <module>game_accordion</module>
+    <module>game_spider</module>
+    <module>game_solitare</module>
   </modules>
 </project>
