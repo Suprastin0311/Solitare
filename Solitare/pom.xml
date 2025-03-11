@@ -57,6 +57,9 @@
     </plugins>
   </build>
   <modules>
+    <module>module_localization</module>
+    <module>interface</module>
+    <module>repository</module>
     <module>profile</module>
   </modules>
 </project>
