@@ -59,5 +59,6 @@
   <modules>
     <module>module_localization</module>
     <module>interface</module>
+    <module>repository</module>
   </modules>
 </project>
