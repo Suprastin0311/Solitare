@@ -63,5 +63,6 @@
     <module>profile</module>
     <module>settings</module>
     <module>game_montana</module>
+    <module>game_klondike</module>
   </modules>
 </project>
