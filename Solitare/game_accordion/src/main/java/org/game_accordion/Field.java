@@ -1,4 +1,4 @@
-package Solitare.game_accordion.src.main.java.org.game_accordion.Solitare.game_accordion.src.main.java.org.game_accordion;
+package org.game_accordion;
 
 /**
  * Используется для конфигурации игрового поля, 
@@ -8,7 +8,7 @@ package Solitare.game_accordion.src.main.java.org.game_accordion.Solitare.game_a
  * @version 2.0
  * @since 13.03.2025
  */
-public class FieldObject {
+public class Field {
 
     /**
      * Количество колонок на игровом поле.

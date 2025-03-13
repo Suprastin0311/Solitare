@@ -9,5 +9,4 @@ public class SolitareApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SolitareApplication.class, args);
 	}
-
 }

@@ -1,4 +1,4 @@
-package Solitare.game_accordion.src.main.java.org.game_accordion.Solitare.game_accordion.src.main.java.org.game_accordion;
+package org.game_accordion;
 
 /**
  * Точка входа в модуль game_accordion
