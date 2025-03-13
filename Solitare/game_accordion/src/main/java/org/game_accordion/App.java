@@ -1,13 +1,12 @@
-package org.game_accordion;
+package Solitare.game_accordion.src.main.java.org.game_accordion.Solitare.game_accordion.src.main.java.org.game_accordion;
 
 /**
- * Hello world!
- *
+ * Точка входа в модуль game_accordion
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
-        System.out.println( "Module Game_Accordion" );
+        System.out.println("Module Game_Accordion");
     }
 }

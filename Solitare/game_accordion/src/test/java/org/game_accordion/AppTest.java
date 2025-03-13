@@ -1,4 +1,4 @@
-package org.game_accordion;
+package Solitare.game_accordion.src.test.java.org.game_accordion;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
