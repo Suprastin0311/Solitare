@@ -6,6 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.settings.GameSettings;
+
 /**
  * Класс Repository для взаимодействия с базой данных.
  */
@@ -34,8 +36,7 @@ public class Repository {
     public void saveSettings(GameSettings settings) {
         String query = "INSERT INTO settings (gameTitle, maxPlayers, soundEnabled, language) VALUES (?, ?, ?, ?)";
         try (PreparedStatement statement = connection.prepareStatement(query)) {
-            statement.setString(1, settings.getGameTitle());
-            statement.setInt(2, settings.getMaxPlayers());
+            statement.setString(1, settings.getGameTitle());            
             statement.setBoolean(3, settings.isSoundEnabled());
             statement.setString(4, settings.getLanguage());
             statement.executeUpdate();
@@ -54,8 +55,7 @@ public class Repository {
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 GameSettings settings = new GameSettings();
-                settings.setGameTitle(resultSet.getString("gameTitle"));
-                settings.setMaxPlayers(resultSet.getInt("maxPlayers"));
+                settings.setGameTitle(resultSet.getString("gameTitle"));                
                 settings.setSoundEnabled(resultSet.getBoolean("soundEnabled"));
                 settings.setLanguage(resultSet.getString("language"));
                 return settings;
