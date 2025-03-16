@@ -1,1 +1,1 @@
-tagSearchIndex = [];updateSearchResults();
+tagSearchIndex = [{"l":"Авторизация и статистика","h":"Overview","d":"Section","u":"index.html#--heading2"},{"l":"Локализация","h":"Overview","d":"Section","u":"index.html#--heading3"},{"l":"Настройки","h":"Overview","d":"Section","u":"index.html#--heading4"},{"l":"Тема по варианту","h":"Overview","d":"Section","u":"index.html#--heading1"},{"l":"Цель разработки","h":"Overview","d":"Section","u":"index.html#--heading"}];updateSearchResults();
