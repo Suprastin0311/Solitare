@@ -86,5 +86,26 @@ public class Field {
      */
     public void setDecksCount(int decksCount) {
         this.decksCount = decksCount;
+        
     }
+    
+    /**
+	 * Устанавливает количество карт в колоде.
+	 * 
+	 * @param deckType тип колоды<br>
+	 * 					1 - 36 карт<br>
+	 * 					2 - 52 карты
+	 */
+	public void setCardsInDeck(int deckType) {
+		if (deckType < 1 || deckType > 2) return;
+		if (deckType == 1) cardsInDeck = 36;
+		if (deckType == 2) cardsInDeck = 52; 
+	}
+	
+	/**
+	 * Возвращает количество карт в колоде
+	 */
+    public int getCardsInDeck() {
+		return cardsInDeck;	
+	}
 }

@@ -1,35 +1,83 @@
 package org.game_spider;
 
 /**
- * Используется для реализации игрового поля, хранит информацию о том, сколько на поле колонок для карт, количество дополнительных раскладок и количество колод.
- *
+ * Класс {@code Field} описывает игровое поле для игры "Паук".
+ * Хранит информацию о колонках, количестве карт в колоде и стопках для игры.
+ * @author ddnik
+ * @version 1.0
+ * @since 15.03.2025
  */
 public class Field {
-    private int columns = 10;
-    private int addedPackCount = 5;
-    private int decksCount = 2;
 
+    /**
+     * Количество колонок на игровом поле.
+     * Значение по умолчанию: 10.
+     */
+    private int columns = 10;
+
+    /**
+     * Количество карт в одной колоде.
+     * Значение по умолчанию: 52.
+     */
+    private int cardsInDeck = 52;
+
+    /**
+     * Количество стопок для сброса.
+     * Значение по умолчанию: 8.
+     */
+    private int foundationPiles = 8;
+
+    /**
+     * Возвращает количество колонок на игровом поле.
+     *
+     * @return количество колонок
+     */
     public int getColumns() {
         return columns;
     }
 
+    /**
+     * Устанавливает количество колонок на игровом поле.
+     *
+     * @param columns новое количество колонок
+     */
     public void setColumns(int columns) {
         this.columns = columns;
     }
 
-    public int getAddedPackCount() {
-        return addedPackCount;
+    /**
+     * Возвращает количество карт в одной колоде.
+     *
+     * @return количество карт в колоде
+     */
+    public int getCardsInDeck() {
+        return cardsInDeck;
     }
 
-    public void setAddedPackCount(int addedPackCount) {
-        this.addedPackCount = addedPackCount;
+    /**
+     * Устанавливает количество карт в одной колоде.
+     *
+     * @param cardsInDeck новое количество карт
+     */
+    public void setCardsInDeck(int cardsInDeck) {
+        this.cardsInDeck = cardsInDeck;
     }
 
-    public int getDecksCount() {
-        return decksCount;
+    /**
+     * Возвращает количество целевых стопок для сброса.
+     *
+     * @return количество стопок
+     */
+    public int getFoundationPiles() {
+        return foundationPiles;
     }
 
-    public void setDecksCount(int decksCount) {
-        this.decksCount = decksCount;
+    /**
+     * Устанавливает количество целевых стопок для сброса.
+     *
+     * @param foundationPiles новое количество стопок
+     */
+    public void setFoundationPiles(int foundationPiles) {
+        this.foundationPiles = foundationPiles;
     }
 }
