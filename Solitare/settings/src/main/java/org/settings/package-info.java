@@ -15,4 +15,5 @@
  * @author ddnik
  * @version 1.0
  */
+
 package org.settings;
