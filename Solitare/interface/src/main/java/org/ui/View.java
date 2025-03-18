@@ -1,4 +1,4 @@
-package org.main;
+package org.ui;
 
 /**
 * Интерфейс View для отображения данных.

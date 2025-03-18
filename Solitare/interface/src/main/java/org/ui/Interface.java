@@ -1,4 +1,4 @@
-package org.main;
+package org.ui;
 
 /**
  * Класс Interface отвечает за управление пользовательским интерфейсом.

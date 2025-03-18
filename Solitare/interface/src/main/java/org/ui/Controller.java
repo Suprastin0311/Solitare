@@ -1,6 +1,6 @@
-package org.main;
+package org.ui;
 
-import org.main.View;
+import org.ui.View;
 
 /**
  * Интерфейс Controller для управления данными.

@@ -1,4 +1,4 @@
-package org.main;
+package org.ui;
 
 /**
  * Класс {@code App} представляет основной входной пункт для модуля 
